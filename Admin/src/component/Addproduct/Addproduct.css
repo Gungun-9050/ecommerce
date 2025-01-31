@@ -1,0 +1,52 @@
+* {
+    color: gray;
+}
+
+.Addproduct {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 20px 10px 30px;
+}
+
+input {
+    height: 30px;
+    width: 90%;
+    border: 0.5px gray solid;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.prices {
+    display: flex;
+    gap: 50px;
+    justify-content: space-a÷; 
+}
+
+.price input {
+    width: 285px;
+}
+
+select {
+    height: 30px;
+    width: max-content;
+    border: 0.5px gray solid;
+    border-radius: 2px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    background-color: #6877e0;
+    color: white;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+}
+
+.itemField img {
+    height: 150px;
+    width: auto;
+}

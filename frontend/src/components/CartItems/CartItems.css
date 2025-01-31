@@ -1,0 +1,99 @@
+.cart {
+    margin: 30px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+
+
+.cartTop hr {
+    width: 89%;
+    background-color: rgb(207, 207, 207);
+  }
+
+.productImg {
+    height: 70px;
+    width: auto;
+}
+
+.items {
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.productName_1 {
+    width: 250px;
+    
+}
+
+.items_1 button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 0.5px solid rgb(197, 197, 197);
+    background-color: white;
+    font-size: smaller;
+    margin-left: 10px;
+}
+
+.removeBtn {
+    height: 15px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.cartDown {
+    display: flex;
+    margin: 40px 70px 40px 70px;
+    gap: 90px;
+}
+
+.cartDownLeft {
+    width: 50%;
+}
+
+.cartDown hr {
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+}
+
+.pricePair {
+    display: flex;
+    justify-content: space-between;
+}
+.cartDownLeft button {
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
+
+.CartDownRight p {
+color: rgb(108, 108, 108);
+}
+
+.CartDownRight input {
+    border: none;
+    background-color: rgb(224, 224, 224);
+    color: rgb(108, 108, 108);
+    height: 40px;
+    width: 290px;
+    padding-left: 10px;
+}
+
+.CartDownRight button {
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+}

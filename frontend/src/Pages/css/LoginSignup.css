@@ -1,0 +1,54 @@
+.SignUp {
+    background-color: #fde1ff;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.SignUpCard {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+}
+
+.SignUpInputs input {
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 0.5px solid rgb(164, 164, 164);
+}
+
+.SignUpInputs button {
+    height: 40px;
+    width: 93%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.SignUp p span {
+    color: red;
+}
+
+.SignUpTerms {
+    display: flex;
+}
+
+.SignUpTerms input {
+    margin-right: 10px;
+}
+
+.SignUpTerms p {
+    font-size: 12px;
+}
+
+span {
+    cursor: pointer;
+}
+
+p{
+    margin: 10px;
+}

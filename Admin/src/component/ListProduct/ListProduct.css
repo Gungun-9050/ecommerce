@@ -1,0 +1,38 @@
+.ListProduct {
+    padding-left: 50px;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;    
+}
+
+.Title {
+    display: grid;
+    grid-template-columns: 2.5fr 4fr 3fr 2fr 2fr 1fr;
+    font-weight: bolder;
+}
+
+.Title p {
+    color: black;
+}
+
+.ProductImage {
+    height: 70px;
+    width: auto;
+}
+
+.ProductDetail {
+    display: grid;
+    grid-template-columns: 2.5fr 4fr 3fr 2fr 2fr 1fr;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.CrossIcon {
+    height: 10px;
+    width: auto;
+}

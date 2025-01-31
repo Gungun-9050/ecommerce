@@ -1,0 +1,18 @@
+.banner{
+    width: 100%;
+
+}
+.show{
+    justify-content: space-between;
+    margin: 0px 170px;
+    align-items: center;
+    display: flex;
+}
+.shopcategory_product{
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding : 0px 150px;
+    row-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
